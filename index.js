@@ -1,6 +1,12 @@
-import { Youtube, Facebook, Instagram, Twitter, Tiktok } from "./src/index.js";
+const {
+  Youtube,
+  Instagram,
+  Tiktok,
+  Facebook,
+  Twitter,
+} = require("./src/index.js");
 
-export const getSocialId = {
+module.exports = getSocialId = {
   Youtube,
   Facebook,
   Instagram,

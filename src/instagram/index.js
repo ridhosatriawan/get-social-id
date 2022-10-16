@@ -1,4 +1,4 @@
-export const Instagram = (url) => {
+const Instagram = (url) => {
   try {
     if (url === "" || url === undefined) {
       return "url undefined";
@@ -16,3 +16,5 @@ export const Instagram = (url) => {
     return err;
   }
 };
+
+module.exports = Instagram;

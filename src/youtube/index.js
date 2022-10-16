@@ -1,4 +1,4 @@
-export const Youtube = (url) => {
+const Youtube = (url) => {
   try {
     if (url === "" || url === undefined) {
       return "url undefined";
@@ -24,3 +24,5 @@ export const Youtube = (url) => {
     return err;
   }
 };
+
+module.exports = Youtube;

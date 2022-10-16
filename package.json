@@ -1,12 +1,17 @@
 {
   "name": "get-url-id",
   "version": "1.0.0",
-  "description": "",
+  "description": "This package can extract id from social media url Youtube, Instagram, Tik Tok, Twitter, Facebook ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ridhosatriawan/get-social-id.git"
+  },
   "author": "Ridho Satriawan <ridhosatriawan321@gmail.com>",
-  "type": "module",
-  "license": "ISC"
+  "license": "ISC",
+  "homepage": "https://github.com/ridhosatriawan/get-social-id",
+  "keywords": ["social media id", "url to id", "youtube id", "instagram id", "twitter id", "tiktok id" , "id extractor", "scrap social media"]
 }

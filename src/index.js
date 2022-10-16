@@ -1,7 +1,13 @@
-import { Youtube } from "./youtube/index.js";
-import { Facebook } from "./facebook/index.js";
-import { Instagram } from "./instagram/index.js";
-import { Twitter } from "./twitter/index.js";
-import { Tiktok } from "./tiktok/index.js";
+const Youtube = require("./youtube/index.js");
+const Facebook = require("./facebook/index.js");
+const Instagram = require("./instagram/index.js");
+const Twitter = require("./twitter/index.js");
+const Tiktok = require("./tiktok/index.js");
 
-export { Youtube, Facebook, Instagram, Twitter, Tiktok };
+module.exports = {
+  Youtube,
+  Facebook,
+  Instagram,
+  Twitter,
+  Tiktok,
+};

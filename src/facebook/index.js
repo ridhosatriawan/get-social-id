@@ -1,4 +1,4 @@
-export const Facebook = (url) => {
+const Facebook = (url) => {
   try {
     if (url === "" || url === undefined) {
       return "url undefined";
@@ -20,3 +20,5 @@ export const Facebook = (url) => {
     return err;
   }
 };
+
+module.exports = Facebook;

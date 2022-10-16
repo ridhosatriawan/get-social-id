@@ -1,4 +1,4 @@
-export const Twitter = (url) => {
+const Twitter = (url) => {
   try {
     if (url === "" || url === undefined) {
       return "url undefined";
@@ -19,3 +19,5 @@ export const Twitter = (url) => {
     return err;
   }
 };
+
+module.exports = Twitter;

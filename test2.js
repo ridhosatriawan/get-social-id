@@ -1,4 +1,4 @@
-import { getSocialId } from "./index.js";
+const getSocialId = require("./index.js");
 
 const idYoutube = getSocialId.Youtube(
   "https://www.youtube.com/watch?v=lpoYF9NLGRU1"

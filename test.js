@@ -1,4 +1,10 @@
-import { Youtube, Facebook, Instagram, Twitter, Tiktok } from "./src/index.js";
+const {
+  Youtube,
+  Facebook,
+  Instagram,
+  Twitter,
+  Tiktok,
+} = require("./src/index.js");
 
 const urlYoutube = [
   "https://www.youtube.com/watch?v=lpoYF9NLGRU1",

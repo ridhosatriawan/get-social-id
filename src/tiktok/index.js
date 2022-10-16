@@ -1,4 +1,4 @@
-export const Tiktok = (url) => {
+const Tiktok = (url) => {
   try {
     if (url === "" || url === undefined) {
       return "url undefined";
@@ -23,3 +23,5 @@ export const Tiktok = (url) => {
     return err;
   }
 };
+
+module.exports = Tiktok;
